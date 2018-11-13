@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="fftw">
+      <UniqueIdentifier>{e5c91507-d630-4695-91f1-826007ec4614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="radix2">
+      <UniqueIdentifier>{1300787d-728f-4f31-b430-5c3ae5a62f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fftw\lib">
+      <UniqueIdentifier>{b07ab08b-adfe-4f68-bf94-a4c09b9a9b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{850d7dac-760a-4949-b52c-0cd957b2fc99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\fftw\lib\fftw3.h">
+      <Filter>fftw\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fftw\fftw_lib.h">
+      <Filter>fftw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\radix2\radix2.h">
+      <Filter>radix2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\misc\iq.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\radix2\tables.h">
+      <Filter>radix2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\fftw\fftw_lib.cpp">
+      <Filter>fftw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\radix2\radix2.cpp">
+      <Filter>radix2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cpp" />
+  </ItemGroup>
+</Project>
